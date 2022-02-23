@@ -1,0 +1,39 @@
+body{
+    background-image: url(/image/fond_neon.PNG);
+    background-color: #00004D;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    position: relative;
+    padding-bottom: 58px;
+    min-height: 100vh;
+    
+}
+
+.titre{
+    float: center;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.bloc{
+    margin-top: 7%;
+    display: flex;
+    justify-content: space-between;    
+}
+
+.image{
+    float: left;
+    flex: 30%;
+    height: 200px;
+}
+.description{
+    text-align: left;
+    float: right;
+    color: whitesmoke;
+    width: 85%;
+    padding: 0px 0px 0px 50px;
+}
+.purchase{
+    float: center;
+}
